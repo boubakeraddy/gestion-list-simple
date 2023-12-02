@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function AddTask(props) {
+function ListAddItemComponent(props) {
   const [task, setTask] = useState("");
   return (
     <>
@@ -24,4 +24,4 @@ function AddTask(props) {
   );
 }
 
-export default AddTask;
+export default ListAddItemComponent;

@@ -1,6 +1,6 @@
 import Task from "./Task";
 
-function ListTasks({ tasks, handleRemoveTask }) {
+function ListItemComponent({ tasks, handleRemoveTask }) {
   const RemoveTask = (i) => {
     handleRemoveTask(i);
   };
@@ -15,4 +15,4 @@ function ListTasks({ tasks, handleRemoveTask }) {
   );
 }
 
-export default ListTasks;
+export default ListItemComponent;
